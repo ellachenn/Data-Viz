@@ -1,0 +1,127 @@
+Rank,Country,State,Stability,Rights,Health,Safety,Climate,Costs,Popularity,GDP (Billions)
+1,Australia,Oceania,86,92,87,100,90,23,41,1331
+2,Hong Kong,Asia,77,85,100,97,49,61,41,347
+3,Switzerland,Europe,91,99,93,99,34,44,46,748
+4,Malta,Europe,86,72,91,92,75,41,44,15
+5,Luxembourg,Europe,93,99,85,100,25,46,42,73
+6,Singapore,Asia,83,89,79,100,45,55,39,340
+7,Spain,Europe,64,73,87,95,74,43,66,1281
+8,Austria,Europe,83,91,97,98,27,37,47,429
+9,Portugal,Europe,80,77,82,93,68,44,37,231
+10,Canada,America,85,92,78,97,33,37,62,1643
+11,Germany,Europe,82,94,96,95,21,44,42,3806
+12,Norway,Europe,89,99,90,99,16,42,37,362
+13,South Korea,Asia,81,75,92,95,56,42,39,1631
+14,Cyprus,Europe,67,68,77,93,75,53,50,24
+15,New Zealand,Oceania,91,100,81,95,35,26,37,212
+16,Sweden,Europe,87,99,85,96,20,40,37,538
+17,France,Europe,72,83,91,93,41,29,71,2603
+18,Finland,Europe,85,100,87,93,17,46,32,271
+19,Denmark,Europe,86,100,85,95,17,35,45,355
+20,Netherlands,Europe,84,98,83,96,20,40,37,912
+21,Uruguay,America,67,79,75,82,77,47,30,54
+22,United States,America,63,81,71,85,66,37,67,20937
+23,Slovenia,Europe,80,73,83,96,40,57,32,53
+24,Czech,Europe,78,73,90,93,22,49,59,244
+25,Qatar,Asia,77,60,62,94,60,70,38,146
+26,Croatia,Europe,67,58,80,91,57,67,40,56
+27,Israel,Asia,57,72,84,81,81,36,33,402
+28,Greece,Europe,60,61,89,88,69,44,43,189
+29,Poland,Europe,69,67,79,93,26,58,69,594
+30,Italy,Europe,65,65,87,89,57,30,65,1886
+31,Hungary,Europe,70,57,81,88,42,56,57,155
+32,Chile,America,66,79,68,87,47,54,36,253
+33,Iceland,Europe,82,92,87,97,7,36,33,22
+34,Belgium,Europe,75,87,88,92,20,32,40,515
+35,Estonia,Europe,80,89,81,92,17,43,26,31
+36,Ireland,Europe,84,90,82,96,2,35,42,419
+37,Bulgaria,Europe,68,51,81,85,50,62,40,69
+38,United Kingdom,Europe,76,91,78,95,6,34,42,2708
+39,Slovakia,Europe,73,67,77,89,34,42,41,105
+40,Saudi Arabia,Asia,53,45,61,90,52,76,55,700
+41,Latvia,Europe,74,74,77,87,19,55,24,34
+42,Lithuania,Europe,77,75,82,88,20,43,23,56
+43,Romania,Europe,64,57,73,88,37,68,25,249
+44,Thailand,Asia,61,40,65,96,46,55,63,502
+45,Malaysia,Asia,70,58,61,91,44,46,41,337
+46,Costa Rica,America,69,69,64,73,44,46,32,62
+47,Georgia,Asia,46,63,67,88,44,58,36,16
+48,Maldives,Asia,64,39,72,87,62,59,18,4
+49,Samoa,Oceania,76,63,50,83,46,58,14,1
+50,China,Asia,69,37,67,90,56,38,57,14723
+51,Paraguay,America,57,37,51,76,78,66,35,35
+52,Argentina,America,41,44,79,78,77,41,38,383
+53,Montenegro,Europe,50,52,68,85,53,61,24,5
+54,Morocco,Africa,56,40,53,87,81,45,36,113
+55,Peru,America,55,46,54,84,70,50,34,202
+56,Tunisia,Africa,38,49,60,82,79,47,39,39
+57,Sri Lanka,Asia,52,43,62,92,57,56,33,81
+58,Albania,Europe,58,43,64,84,55,57,26,15
+59,Ecuador,America,61,36,60,88,57,61,27,99
+60,Mongolia,Asia,59,44,60,72,44,70,31,13
+61,Bosnia and Herzegovina,Europe,47,38,69,86,49,70,26,20
+62,Armenia,Asia,36,51,70,93,50,57,23,13
+63,Jordan,Asia,50,48,60,77,52,63,27,44
+64,Turkey,Europe,31,38,64,87,62,59,50,720
+65,Serbia,Europe,54,44,71,87,51,57,11,53
+66,Senegal,Africa,64,47,33,91,52,56,36,25
+67,Rwanda,Africa,68,48,27,72,60,58,37,10
+68,South Africa,Africa,47,54,31,43,95,49,40,302
+69,India,Asia,48,46,35,79,67,45,59,2623
+70,Algeria,Africa,35,24,61,97,78,55,36,145
+71,Mexico,America,46,37,54,52,83,34,69,1076
+72,Kazakhstan,Asia,54,36,69,82,40,60,33,170
+73,Vietnam,Asia,67,35,54,76,52,51,33,271
+74,Indonesia,Asia,61,44,39,98,39,54,38,1058
+75,Bolivia,America,57,28,45,68,85,51,33,37
+76,Moldova,Europe,51,41,67,84,40,62,15,12
+77,Trinidad and Tobago,America,68,50,61,39,51,48,30,22
+78,Timor-Leste,Asia,65,37,42,42,72,67,23,2
+79,Ukraine,Europe,42,36,71,82,33,60,38,156
+80,Egypt,Africa,36,26,44,83,68,59,52,363
+81,Brazil,America,37,45,63,60,65,44,35,1445
+82,Jamaica,America,55,52,51,37,73,47,18,14
+83,Madagascar,Africa,49,28,22,86,77,66,33,14
+84,Tanzania,Africa,51,34,21,57,88,56,46,62
+85,Russia,Europe,47,26,74,75,33,62,42,1483
+86,Nepal,Asia,53,35,34,89,56,57,28,34
+87,Malawi,Africa,42,38,20,78,82,50,40,12
+88,Kenya,Africa,41,33,25,72,92,45,44,99
+89,Suriname,America,44,43,50,73,35,62,38,4
+90,Laos,Asia,68,19,30,76,48,73,34,19
+91,Columbia,America,47,46,62,30,61,46,28,271
+92,Pakistan,Asia,24,26,31,92,72,63,41,264
+93,Philippines,Asia,52,39,45,67,49,46,34,361
+94,Gambia,Africa,47,38,21,79,57,58,31,2
+95,Kyrgyzstan,Asia,36,27,57,58,48,71,30,8
+96,Azerbaijan,Asia,46,24,70,38,56,64,19,43
+97,Honduras,America,46,26,46,43,78,57,23,24
+98,Guatemala,America,52,28,44,71,61,45,26,78
+99,Bangladesh,Asia,43,26,44,74,50,61,33,324
+100,Lebanon,Asia,10,25,65,76,71,41,46,33
+101,El Salvador,America,59,39,49,21,66,50,14,25
+102,Belarus,Europe,37,28,82,81,22,40,37,60
+103,Cambodia,Asia,56,19,28,68,52,66,35,25
+104,Uganda,Africa,48,30,14,62,71,57,37,37
+105,Zambia,Africa,34,32,18,60,68,58,47,19
+106,Lesotho,Africa,36,40,12,24,89,57,37,2
+107,Gabon,Africa,48,25,32,52,44,46,73,16
+108,Myanmar,Asia,31,24,32,63,50,73,33,76
+109,Nicaragua,America,45,18,45,73,61,41,25,13
+110,Togo,Africa,49,29,12,75,50,54,39,8
+111,Tajikistan,Asia,51,13,53,58,48,51,34,8
+112,Ivory Coast,Africa,47,36,11,58,52,57,37,61
+113,Iran,Asia,19,15,60,79,56,43,40,192
+114,Ethiopia,Africa,27,31,16,31,81,63,43,108
+115,Burundi,Africa,31,11,9,62,76,66,54,3
+116,Sierra Leone,Africa,38,34,6,69,43,64,48,4
+117,Zimbabwe,Africa,29,14,13,74,91,37,36,17
+118,Angola,Africa,27,24,10,55,63,53,31,62
+119,Mozambique,Africa,36,26,10,4,80,53,36,14
+120,Afghanistan,Asia,28,9,20,19,58,63,63,20
+121,Iraq,Asia,16,12,42,29,37,75,33,167
+122,Cameroon,Africa,40,19,9,27,60,51,34,40
+123,Nigeria,Africa,18,24,12,23,53,57,41,432
+124,Chad,Africa,46,12,0,31,50,49,44,10
+125,Sudan,Africa,8,11,18,55,40,66,24,26
+126,Congo (Dem. Republic),Africa,32,7,6,10,54,60,36,11

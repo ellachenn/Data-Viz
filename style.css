@@ -1,14 +1,115 @@
-body {
-    margin: 0;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  #country {
-    text-align: center;
-    height:20px;
-  }
+main.container {
+  padding: 30px 30px;
+  background-color: white;
+}
 
-  
+/* .navbar {
+  padding: 10px 10px;
+} */
+
+h1 {
+  text-align: center;
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 50pt;
+  padding: 40pt;
+}
+
+h4 {
+  /* margin-left: 140pt; */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23pt;
+  color: grey;
+  padding: 12pt;
+}
+
+h3 {
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30pt
+  /* padding: 20px */
+}
+
+p {
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20pt;
+}
+
+/* for auto-resizing d3 */
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 5%;
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* for auto resizing p5 */
+#myP5-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%;
+    height: 0;
+}
+
+#myP5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.sliderLabel {
+  display:inline-block;
+  width: 200px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 5px;
+  font: 12px sans-serif;
+  background: white;
+  border-color: black;
+  border: 100px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#legend {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11pt;
+}
+
+
+#legend text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11pt;
+  stroke: none;
+  fill: grey;
+}
+
+.sliderLabels {
+  color: gray;
+}
+
+text {
+  font-size: 15pt;
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#continentStyle {
+  font-size: 20pt
+}
+

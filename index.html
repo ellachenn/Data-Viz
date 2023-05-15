@@ -1,20 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <h1>Global Population</h1>
-    <div id="country"></div>
-    <div id="myChart"></div>
 
-    <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
-  <div id="country"></div>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+
+  <!--   p5.js lib -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+
+  <!--     bootstrap style -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!--   your style -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <!--     NAVBAR -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Link1</a>
+          <a class="nav-item nav-link" href="#">Link2</a>
+        </div>
+      </div>
+    </nav> -->
+    <!--     END NAVBAR -->
+  </header>
+  <main role="main" class="container">
+    <h1>World Quality of Life</h1>
+    <div id="instructions">
+      <!-- <h3>World Map Visualization:</h3> -->
+      <p>This map visualizes data on world quality of life. The data used is from two Kaggle datasets linked below. When all of the factors contributing to the quality of life score are weighed the same, Australia has the highest quality of life, and North America follows closely with high quality of life scores. Change the sliders to calculate the quality of life of countries according to what's most important to you!
+      </p>
+      <p>Note: there is no data for countries in white.</p>
+    </div>
+
+    <div id="graphics" class="row">
+      <div class="col-3">
+        <div class="links">
+          <p><a href="https://www.kaggle.com/datasets/holoong9291/gdp-of-all-countries19602020">GDP by Country and
+            Region</a>
+          <a href="https://www.kaggle.com/datasets/shivamsingh0194/quality-of-life-in-a-country-comparison">Quality of
+            Life by Country</a></p>
+        </div>
+        <div id="legend"></div>
+
+
+        <div class="row">
+          <div class="col-4 sliderLabels">
+
+            <div>Stability:</div>
+            <div>Rights:</div>
+            <div>Health:</div>
+            <div>Safety:</div>
+            <div>Climate:</div>
+            <div>Costs:</div>
+            <div>Popularity:</div>
+          </div>
+
+          <div class="col-6">
+            <div><input type="range" min="1" max="100" value="50" class="slider" id="stability"></div>
+            <div><input type="range" min="1" max="100" value="50" class="slider" id="rights"></div>
+            <div><input type="range" min="1" max="100" value="50" class="slider" id="health"></div>
+            <div><input type="range" min="1" max="100" value="50" class="slider" id="safety"></div>
+            <div><input type="range" min="1" max="100" value="50" class="slider" id="climate"></div>
+            <div><input type="range" min="1" max="100" value="50" class="slider" id="costs"></div>
+            <div><input type="range" min="1" max="100" value="50" class="slider" id="popularity"></div>
+          </div>
+
+          <div class="col-2 sliderLabels">
+            <div id="stabilityWeight">50</div>
+            <div id="rightsWeight">50</div>
+            <div id="healthWeight">50</div>
+            <div id="safetyWeight">50</div>
+            <div id="climateWeight">50</div>
+            <div id="costsWeight">50</div>
+            <div id="popularityWeight">50</div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="country"></div>
+        <h4 class="text-center">Weighed World Quality of Life Map</h4>
+        <div id="myChart" class="svg-container"></div>
+      </div>
+    </div>
+    
+    <!-- <h3>Continent Bar Chart Visualization:</h3>
+    <p>words</p> -->
+
+  <div class="row">
+    <div class="col-3">
+      </div>
+    <div class="col-9">
+        <h4 class="text-center">Weighted Average Quality of Life Score by Continent</h4>
+        <div id="myChart2" class="svg-container2"></div>
+      </div>
+  </div>
+
+  <div id="footer" class="text-center">
+    Copyright © 2023 Ella Chen
+  </div>
+    
+  </main>
+
+  <!--   SCRIPTS -->
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+  <script src="d3_script.js"></script>
+  <script src="d3_scriptBars.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
